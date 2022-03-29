@@ -178,6 +178,42 @@ nav {
   cursor: pointer;
 }
 
+.hero {
+  padding: 120px;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+
+.hero__text {
+  max-width: 268px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+
+.hero__image {
+  width: 1437px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 @media (max-width: 991.98px) {
   .container {
     max-width: 970px;
