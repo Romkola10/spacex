@@ -75,7 +75,7 @@ h6 {
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #000;
+  background: #FAFAFA;
 }
 
 body.locked {
@@ -115,7 +115,7 @@ body.locked {
 }
 
 nav {
-  background-color: #000000;
+  background-color: #FAFAFA;
   overflow: hidden;
 }
 
@@ -129,6 +129,10 @@ nav {
           justify-content: space-between;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.logo a {
+  color: #261D56;
 }
 
 .menu {
@@ -145,11 +149,11 @@ nav {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  margin-left: 25px;
+  margin-left: 40px;
 }
 
 .menu__item-link {
-  color: #ffffff;
+  color: #261D56;
 }
 
 .second-menu {
@@ -170,7 +174,7 @@ nav {
 }
 
 .second-menu__item-link {
-  color: #808080;
+  color: #261D56;
 }
 
 .burger {
@@ -230,7 +234,7 @@ nav {
 @media screen and (max-width: 767.98px) {
   .menu {
     position: fixed;
-    background: #000000;
+    background: #FAFAFA;
     left: 0;
     top: 0;
     height: 100vh;
@@ -345,7 +349,7 @@ nav {
   }
 
   .menu__item-link {
-    color: white;
+    color: #261D56;
   }
 }
 

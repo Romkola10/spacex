@@ -14,11 +14,11 @@ nav {
     padding-bottom: 15px;
 }
 
-// .logo {
-//     a {
-//         color: white;
-//     }
-// }
+.logo {
+    a {
+        color: $mainTextColor;
+    }
+}
 
 .menu {
     display: flex;
@@ -32,7 +32,7 @@ nav {
         font-size: 12px;
         line-height: 14px;
        
-        margin-left: 25px;
+        margin-left: 40px;
     }
 
     // .menu__item-link
@@ -58,7 +58,7 @@ nav {
 
     // .menu__item-link
     &__item-link {
-        color: $secondTextColor;
+        color: $mainTextColor;
     }
 }
 
@@ -169,6 +169,6 @@ nav {
 
     // .menu__link
     .menu__item-link {
-        color: white;
+        color: $mainTextColor;
     }
 }
