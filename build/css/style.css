@@ -102,6 +102,23 @@ body.locked {
   }
 }
 
+.btn {
+  padding: 10px;
+  background-color: #FAFAFA;
+  border: 2px solid #E6E8EC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 90px;
+}
+
+.btn:hover {
+  background-color: #261D56;
+  color: #FAFAFA;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 @font-face {
   font-family: "Roboto";
   src: url("../src/fonts/roboto-regular.ttf") format("truetype");
@@ -120,6 +137,9 @@ nav {
 }
 
 .navbar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,8 +167,8 @@ nav {
 .menu__item {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 16px;
   margin-left: 40px;
 }
 
@@ -168,8 +188,8 @@ nav {
 .second-menu__item {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 16px;
   margin-left: 25px;
 }
 
@@ -184,31 +204,42 @@ nav {
 
 .hero {
   padding: 120px;
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  background-image: url(../img/hero_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero__title {
   font-style: normal;
   font-weight: 400;
-  font-size: 64px;
-  line-height: 75px;
+  font-size: 48px;
+  line-height: 54px;
   text-align: center;
-  color: #ffffff;
+  color: #261D56;
   margin-bottom: 26px;
 }
 
 .hero__text {
-  max-width: 268px;
+  max-width: 400px;
   margin: 0 auto;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 140%;
   text-align: center;
-  color: #ffffff;
+  color: #808080;
   margin-bottom: 26px;
 }
 

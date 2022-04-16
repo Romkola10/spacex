@@ -7,6 +7,7 @@ nav {
 }
 
 .navbar {
+    align-items: center;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -29,8 +30,8 @@ nav {
     &__item {
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
+        font-size: 14px;
+        line-height: 16px;
        
         margin-left: 40px;
     }
@@ -50,8 +51,8 @@ nav {
     &__item {
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
+        font-size: 14px;
+        line-height: 16px;
        
         margin-left: 25px;
     }
