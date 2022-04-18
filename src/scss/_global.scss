@@ -26,7 +26,13 @@
 // Body Locked
 body {
     font-family: 'Roboto',sans-serif;
-    background: $bgColor;
+    color: $bgColor;
+
+    background: $mainTextColor;
+    // background-image: url(../img/background.jpg);
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
     &.locked {
         overflow: hidden;
     }
